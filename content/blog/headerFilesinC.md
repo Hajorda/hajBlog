@@ -4,7 +4,7 @@ title: "C the Difference: Why Header and Source Files Matter in C/C++"
 description: "Learn how C/C++ uses header (.h) and source (.c/.cpp) files to organize code, speed up compilation, and build modular libraries—like a pro."
 date: 2025-06-26
 ---
-![cHeaderBanner](/images/cHeaderBanner.png "Banner")
+![cHeaderBanner](/images/headerC.png "Banner")
 
 C and C++ may seem old-school, but their modular design philosophy still powers everything from embedded systems to operating systems. A key piece of that philosophy? The separation of **header** and **source** files.
 
@@ -61,7 +61,7 @@ To use the library in your own project:
 1. **Include the header** in your code:
    ```c
    #include <myCoolLibrary.h>
-````
+```
 
 2. **Link the compiled binary** during compilation:
 
