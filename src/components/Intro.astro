@@ -2,16 +2,19 @@
 ---
 
 <section class="mb-8">
-  <div class="mb-4">
-    <h1
-      class="font-extrabold text-5xl md:text-6xl tracking-tight pt-4 pb-2 overflow-hidden"
-    >
-      <span
-        class="bg-gradient-to-br from-[#fb923c] via-[#f97316] to-[#ea580c] dark:from-primary-main dark:via-primary-main dark:to-primary-main bg-clip-text text-transparent"
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-end">
+    <div>
+      <h1
+        class="font-extrabold text-5xl md:text-6xl tracking-tight pt-4 pb-2 overflow-hidden"
       >
-        Ali Bolat
-      </span>
-    </h1>
+        <span
+          class="bg-gradient-to-br from-[#fb923c] via-[#f97316] to-[#ea580c] dark:from-primary-main dark:via-primary-main dark:to-primary-main bg-clip-text text-transparent"
+        >
+          Ali Bolat
+        </span>
+      </h1>
+      <p class="text-2xl pb-4">Developer, Wizard, Student.</p>
+    </div>
     <div id="card">
       <model-viewer
         src="/voxel_lucky_cat.glb"
@@ -21,13 +24,14 @@
         ar
         ar-modes="webxr scene-viewer quick-look"
         shadow-intensity="1"
-        style="width: 100%; height: 400px;"
+        style="width: 100%; height: 300px;"
       >
       </model-viewer>
     </div>
-    <p class="text-2xl pb-4">Developer, Wizard, Student.</p>
   </div>
 </section>
 
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+
+
 
