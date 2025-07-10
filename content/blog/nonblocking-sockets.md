@@ -5,7 +5,7 @@ title: "Non-Blocking Sockets and I/O Multiplexing with epoll in C"
 description: "This guide explains the concept of non-blocking sockets and how to use `epoll` for I/O multiplexing in C to build high-performance network applications."
 date: 2025-07-01
 ---
-# Non-Blocking Sockets and I/O Multiplexing with epoll in C
+![cHeaderBanner](/images/nonblock.png "Banner")
 
 This guide explains the concept of non-blocking sockets and how to use `epoll` for I/O multiplexing in C to build high-performance network applications.
 

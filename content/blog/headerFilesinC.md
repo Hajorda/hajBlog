@@ -14,7 +14,7 @@ Turns out, this simple structure is the backbone of how C/C++ libraries are buil
 
 ---
 
-## 🧱 The Basic Idea
+## The Basic Idea
 
 When implementing a module or library in C/C++, the convention is:
 
@@ -25,15 +25,15 @@ This structure keeps your interface and implementation cleanly separated. Think 
 
 ---
 
-## 🧠 Why Split Header and Source?
+## Why Split Header and Source?
 
 This pattern isn't just academic—it's practical. Here’s why:
 
-### ✅ 1. Encapsulation and Abstraction
+### 1. Encapsulation and Abstraction
 
 Users of your module only need to know what functions are available—not how they’re implemented. This reduces complexity and makes your code easier to maintain.
 
-### ⚡ 2. Faster Compilation
+### 2. Faster Compilation
 
 Compiling everything from scratch every time? No thanks. By pre-compiling source files into **object files** (`.o`) or **shared libraries** (`.so`, `.dll`), you save time:
 
@@ -41,7 +41,7 @@ Compiling everything from scratch every time? No thanks. By pre-compiling source
 - Headers remain lightweight.
 - No need to ship full source code—just headers and compiled binaries.
 
-### 🔁 3. Reusability and Modularity
+### 3. Reusability and Modularity
 
 Once you've built a clean header/source pair, your module can be reused in any number of projects. You can even share it as a closed-source binary with a public interface—just like real-world libraries.
 
@@ -73,7 +73,7 @@ To use the library in your own project:
 
 ---
 
-## 📁 Where Are These Files?
+## Where Are These Files?
 
 Most systems follow this pattern:
 
@@ -86,7 +86,7 @@ Package managers like `apt`, `dnf`, and `brew` automatically install libraries t
 
 ---
 
-## 🧮 Summary Table
+## Summary Table
 
 Here’s a quick rundown of the file types:
 
@@ -100,7 +100,7 @@ Here’s a quick rundown of the file types:
 
 ---
 
-## 🧑‍💻 Final Thoughts
+##  Final Thoughts
 
 Header and source file separation is a fundamental part of C/C++ development. It keeps code modular, reusable, and fast to compile. The next time you're writing a utility, building a library, or distributing a tool, structure it like the pros do:
 
