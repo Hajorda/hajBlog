@@ -1,8 +1,8 @@
 
 ---
 external: false
-title: "Flutter on iOS 26: "Unable to Find a Destination Matching the Provided Destination Specifier" - How to Fix It"
-description: "Fix the Flutter Xcode 26 "Unable to find a destination" simulator error. Learn how to resolve the native arm64 iOS 26 requirement with this quick guide."
+title: 'Flutter on iOS 26: "Unable to Find a Destination Matching the Provided Destination Specifier" - How to Fix It'
+description: 'Fix the Flutter Xcode 26 "Unable to find a destination" simulator error. Learn how to resolve the native arm64 iOS 26 requirement with this quick guide.'
 date: 2026-05-05
 ---
 
